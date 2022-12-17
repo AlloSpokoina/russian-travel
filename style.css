@@ -3,6 +3,7 @@
   /* height: 6895px; */
   background-color: #2a2c2f;
   color: #FFFFFF;
+  font-family: "inter", "Arial", sans-serif;
 }
 
 .header {
@@ -229,7 +230,7 @@
 /* } */
 
 .cover__link {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/russian-travel/images/cover-trains.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/cover-trains.jpg);
   background-size: cover;
   display: flex;
   position: relative;
