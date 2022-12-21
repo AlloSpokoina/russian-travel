@@ -3,8 +3,17 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  width: 560px;
-  height: 152px;
+  max-width: 560px;
+  max-height: 152px;
   margin: 0;
-  padding-top: 195px;
+  padding-top: 245px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding: 33px 16px 0;
+    max-width: 288px;
+  }
 }

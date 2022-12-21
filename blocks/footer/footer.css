@@ -1,7 +1,20 @@
 .footer {
-  min-width: 928px;
-  min-height: 18px;
+  /*min-width: 1184px;
+  min-height: 18px;*/
   display: flex;
   justify-content: space-between;
   padding: 0 48px 24px;
+}
+
+@media screen and (max-width:767px) {
+  .footer {
+    flex-direction: column;
+    padding: 64px 118px 24px 16px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
 }
