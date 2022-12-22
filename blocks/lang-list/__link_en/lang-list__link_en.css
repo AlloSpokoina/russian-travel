@@ -1,5 +1,6 @@
 .lang-list__link_en {
-  text-decoration: none;
+  text-decoration-line: underline;
   color: #FFFFFF;
   padding-right: 18px;
+  list-style: circle;
 }
