@@ -9,3 +9,6 @@
   opacity: 1;
   transition: opacity .3s ease;
 }
+.places__link:hover {
+  opacity: 50%;
+}
