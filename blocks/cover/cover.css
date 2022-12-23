@@ -1,5 +1,9 @@
 .cover {
-  margin: 92px 48px;
+  background-image: url(../../images/cover-trains.jpg);
+  margin: 92px 48px 92px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width:320px) and (max-width:767px) {
