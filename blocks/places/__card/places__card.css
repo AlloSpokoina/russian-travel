@@ -1,6 +1,6 @@
 .places__card {
   display: grid;
-  grid-template-columns: minmax(440px, 460px) 1fr;
+  grid-template-columns: minmax(440px, 460px) 484px;
   grid-template-rows: repeat(2, min-content);
   row-gap: 48px;
   column-gap: 40px;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width:320px) and (max-width: 767px) {
   .places__card {
-    grid-template-columns: minmax(320px, 1fr);
+    grid-template-columns: minmax(min-content, 1fr);
     margin-bottom: 50px;
     gap: 32px;
   }

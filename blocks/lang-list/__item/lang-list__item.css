@@ -1,7 +1,6 @@
 .lang-list__item {
-  width: 30px;
-  height: 28px;
-  margin: 0 18px;
+  display: flex;
+  justify-content: end;
 }
 
 .lang-list__item:last-of-type {

@@ -1,4 +1,5 @@
 .lang-list__link-ru {
   text-decoration: none;
   color: #FFFFFF;
+  max-width: 30px;
 }

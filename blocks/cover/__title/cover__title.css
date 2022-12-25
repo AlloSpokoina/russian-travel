@@ -11,20 +11,12 @@
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
   .cover__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
     padding: 195px 232px 0;
     margin: 0 auto;
   }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
   .cover__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
     padding: 115px 104px 0;
     margin: 0 auto;
   }
@@ -36,7 +28,6 @@
     line-height: 35px;
     padding: 33px 16px 0;
     max-width: 288px;
-    max-height: 70px;
     margin: 0 auto;
   }
 }
