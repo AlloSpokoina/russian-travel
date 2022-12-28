@@ -6,20 +6,18 @@
   max-width: 360px;
   display: flex;
   margin: 0;
-  padding: 32px 412px;
+ /* padding: 32px 412px;*/
 }
 
 @media screen and (min-width:1024px) and (max-width:1280px) {
   .cover__subtitle {
-    padding: 32px 332px 195px;
+    /*padding: 32px 332px 195px;*/
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
   .cover__subtitle {
-    padding: 32px 204px 115px;
-    margin: 0 auto;
   }
 }
 
@@ -27,8 +25,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    padding: 16px 16px 33px;
-    margin: 0 auto;
     max-width: 288px;
   }
 }

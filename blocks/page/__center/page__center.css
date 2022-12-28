@@ -1,6 +1,4 @@
 .page__center {
-  /*min-width: 320px;*/
   max-width: 1184px;
-  /*width: 100%;*/
   margin: 0 auto;
 }
