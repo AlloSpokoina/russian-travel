@@ -1,16 +1,9 @@
 .lang-list__item {
   display: flex;
   justify-content: end;
+  padding-right: 18px;
 }
 
 .lang-list__item:last-of-type {
-  margin: 0;
-}
-
-@media screen and (max-width:767px) {
-  .lang-list__item {
-    width: 22px;
-    height: 20px;
-    font-size: 18px;
-  }
+  padding-right: 0;
 }

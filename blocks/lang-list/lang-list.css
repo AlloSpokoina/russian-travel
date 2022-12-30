@@ -8,6 +8,13 @@
   list-style-type: none;
   display: flex;
   margin: 0;
-  align-items: center;
+  align-items: flex-end;
   padding: 0;
+}
+
+@media screen and (max-width:767px) {
+  .lang-list {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
